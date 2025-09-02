@@ -16,10 +16,9 @@ The datasets can be downloaded by:
 4) [P-MRI](https://zenodo.org/record/7013610)
 
 ### Training
-```
-First, compile `./supervoxels/felzenszwalb_3d_cy.pyx` using Cython by running (`python ./supervoxels/setup.py build_ext --inplace`), then execute `./supervoxels/generate_supervoxels.py` 
-Second, download pre-trained ResNet-101 weights (https://download.pytorch.org/models/resnet101-63fe2227.pth). Place the downloaded weights in your checkpoints folder, then update the absolute path in the code at `./models/encoder.py`.  
-Finally, execute the training script by running `./script/train.sh`
+1. Compile `./supervoxels/felzenszwalb_3d_cy.pyx` using Cython by running (`python ./supervoxels/setup.py build_ext --inplace`), then execute `./supervoxels/generate_supervoxels.py` 
+2. Download pre-trained ResNet-101 weights (https://download.pytorch.org/models/resnet101-63fe2227.pth). Place the downloaded weights in your checkpoints folder, then update the absolute path in the code at `./models/encoder.py`.  
+3. Execute the training script by running `./script/train.sh`
 ```
 ### Inference
 Run the test script with `./script/test.sh` 
