@@ -1,6 +1,6 @@
 # Getting started
 
-### Dependencies
+### Installation
 Please install following essential dependencies:
 ```
 pip install -r requirements.txt
