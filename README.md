@@ -27,7 +27,7 @@ Run the test script with `./script/test.sh`
 ### Acknowledgement
 Our code is based the works: 
 [SSL-ALPNet](https://github.com/cheng-01037/Self-supervised-Fewshot-Medical-Image-Segmentation), 
-[ADNet](https://github.com/sha168/ADNet),
+[VMamba](https://github.com/MzeroMiko/VMamba),
 [QNet](https://github.com/ZJLAB-AMMI/Q-Net)
 
 
